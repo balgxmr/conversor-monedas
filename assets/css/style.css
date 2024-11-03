@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+body {
+  background-color: #212529;
+}
+
+hr {
+  margin: 1rem 20%;
+  color: #1d3e47;
+}
+
+.container {
+  background-color: #6c757d;
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.container--titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  max-width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #333;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  color: #333;
+}
+
+button {
+  background-color: #17a2b8;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #138496;
+}
+
+.container {
+  background-color: #6c757d;
+  width: 300px; /* Ancho del contenedor */
+  margin: 100px auto; /* Centrar vertical y horizontalmente */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Evita que los elementos se salgan del contenedor */
+}
+
+.resultado {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.containerGrafica {
+  margin: 20px;
+}
+
+canvas {
+  background-color: #fff;
+}
